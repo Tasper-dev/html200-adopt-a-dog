@@ -8,11 +8,15 @@ header {
 footer {
     background-color: lightblue;;
 }
-img {
-    max-width: 100%;
-    display:block;
-}
 
 h1 {
     color: lightblue;
+}
+
+.cart {
+    max-width: 5%;
+}
+
+.logo {
+    max-width: 50%;
 }
