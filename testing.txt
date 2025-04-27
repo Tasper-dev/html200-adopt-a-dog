@@ -15,7 +15,8 @@ Name: Kelly Smith
 Age: 26
 Occupation: Elementary School Teacher
 Activities: camping with friends, going to concerts, hiking
-Other details: uses 1 year old iPhone, uses 5 year old laptop
+Other details: looking for a medium sized energetic dog for hiking, camping
+    -uses 1 year old iPhone, uses 5 year old laptop
 Primary browsers: iOS Safari on iPhone
 -Safari on Macbook Air 
 
@@ -69,7 +70,7 @@ Tested on Edge Browser
     -content should be in columns for better space usage
     -can't display at 100% so hard to judge link/text sizes
 
-    Tested on my physical iPhone, using iOS Safari
+Tested on my physical iPhone, using iOS Safari
     -Home page-images display too wide
     -Home page- Adopt links too small
     -Checkout page form is too small and boxes close together

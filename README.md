@@ -2,17 +2,17 @@ Adoptadog
 Seattle's premiere dog adoption agency
 
 Description
-The Adoptadog site is written in HTML. Designed to be mobile-first and progressively enhance as viewport widens.
+The Adoptadog site is written in HTML and CSS. Designed to be mobile-first and progressively enhance as viewport widens. It is easy to view all available dogs, fill out a simple form, and submit to adopt the dog(s) chosen.
 
--
--
--
+    -Tested on Chrome, Safari, iOS Safari, and Edge Browsers
+    -Will utilize CSS grids and flexbox
+    -Designed with responsiveness and accessibility as a top priority
 
 Documentation and Support
-( give links to relevant relate sites here)
+-email Tiffanyasper@gmail.com
 
 Licensing
-Adoptadog is licensed under the .....
+Adoptadog is licensed under the MIT License.
 
 Copyright
-(copyright symbol) 2025-2030 Tiffany Asper
+©2025 Tiffany Asper
