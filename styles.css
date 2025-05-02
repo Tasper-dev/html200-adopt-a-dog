@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #5A5A5A;
 }
 
 h1 {
@@ -34,21 +35,18 @@ img {
     display: block;
 }
 
-nav {
+.main-nav {
     clear: both;
+    background-color: #D3D3D3;
 }
 
-nav ul {
-    list-style: none;
+.main-nav ul {
+    padding: .5rem;
+    margin: 0;
 }
 
 nav ul li {
     padding: .2rem;
-}
-
-nav ul a {
-    color: navy;
-    text-decoration: none;
 }
 
 a:hover {
@@ -65,8 +63,16 @@ header {
     padding: 1rem;
 }
 
-header a {
+a {
     text-decoration: none;
+    color: navy;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header a {
     background-color: lightblue;
     color: black;
     padding: .5rem;
@@ -84,16 +90,10 @@ footer {
     padding: .5rem;
 }
 
-footer ul {
-    list-style-type: none;
-}
-
 footer p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
     padding: .5rem;
 }
-
 
 .container {}
 
@@ -124,4 +124,98 @@ footer p {
     width: 100%;
     padding: 1rem;
     text-align: center;
+}
+
+/* CSS for Dogs page */
+
+.card-four {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-five {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-six {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-seven {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-eight {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-nine {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-ten {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-eleven {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-twelve {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* CSS for Blog */
+
+.blog-one {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-two {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-three {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* CSS for Contact page */
+
+.contact {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.contact li {
+    padding: .5rem;
+    color: navy;
+}
+
+/* Checkout */
+
+.check-container {
+    padding: 1rem;
 }
