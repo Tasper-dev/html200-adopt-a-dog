@@ -1,221 +1,209 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5A5A5A;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #424242;
 }
 
 h1 {
-    color: lightblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin: 0 0 1rem 2rem;
-    padding: 0 .5rem;
-    max-width: 50%;
+  color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 0 1rem 2rem;
+  padding: 0 0.5rem;
+  max-width: 50%;
 }
 
 .logo {
-    max-width: 50%;
-    margin: 1rem 0 0 2rem;
-    padding: .5rem;
+  width: 33%;
+  margin: 1rem 0 0 2rem;
+  padding: 0.5rem;
 }
 
-
 .cart {
-    max-width: 10%;
-    padding: .5rem;
+  width: 5rem;
+  padding: 0.5rem;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .main-nav {
-    clear: both;
-    background-color: #D3D3D3;
+  clear: both;
+  background-color: #d3d3d3;
 }
 
 .main-nav ul {
-    padding: .5rem;
-    margin: 0;
+  padding: 0.5rem;
+  margin: 0 0 0 8rem;
 }
 
 nav ul li {
-    padding: .2rem;
+  padding: 1rem;
+  display: inline;
 }
 
 a:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 header {
-    background-image: url(images/header-image.jpg), linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, rgba(128, 70, 27, 1) 100%);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    overflow: hidden;
-    padding: 1rem;
+  background-image: url(images/header-image.jpg),
+    linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, rgba(128, 70, 27, 1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 4rem;
 }
 
 a {
-    text-decoration: none;
-    color: navy;
+  text-decoration: none;
+  color: navy;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header a {
-    background-color: lightblue;
-    color: black;
-    padding: .5rem;
-    border-radius: .5rem;
+  background-color: lightblue;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 h2 {
-    color: navy;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: navy;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 footer {
-    background-color: lightblue;
-    padding: .5rem;
+  background-color: lightblue;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+footer img {
+  justify-self: center;
 }
 
 footer p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: .5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0.5rem;
 }
 
-.container {}
+.about-img-box {
+  width: 30%;
+  float: left;
+  margin: 1rem 0 1rem 8rem;
+}
 
 .about-box {
-    width: 90%;
-    padding: 1rem;
+  width: 50%;
+  float: right;
+  margin: 1rem 8rem 1rem 0;
 }
 
-.card-one {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  clear: both;
+  margin: 1rem 8rem;
 }
 
-.card-two {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+.card {
+  min-width: 21.875rem;
+  width: 25%;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 2px 2px 5px #d3d3d3, 2px 2px 5px #d3d3d3;
 }
 
-.card-three {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+button {
+  font-size: 1.25rem;
 }
 
 .dogs-link {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* CSS for Dogs page */
 
-.card-four {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-five {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-six {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-seven {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-eight {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-nine {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-ten {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-eleven {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-twelve {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+.head-right {
+  margin-left: 8rem;
 }
 
 /* CSS for Blog */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 2rem 0.25rem;
+  margin: 1rem 8rem;
+}
+.img-one {
+  grid-area: 1 / 1 / 2/ 2;
+}
+
 .blog-one {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.img-two {
+  grid-area: 2 / 1 / 3 / 2;
 }
 
 .blog-two {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.img-three {
+  grid-area: 3 / 1 / 4 / 3;
 }
 
 .blog-three {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+h3 {
+  margin: 0;
 }
 
 /* CSS for Contact page */
 
 .contact {
-    text-decoration: none;
-    padding: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
 }
 
 .contact li {
-    padding: .5rem;
-    color: navy;
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.5rem;
+}
+
+.contact li a {
 }
 
 /* Checkout */
 
 .check-container {
-    padding: 1rem;
+  padding: 1rem;
+  margin: 1rem 8rem;
 }
