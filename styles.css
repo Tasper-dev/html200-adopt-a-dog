@@ -205,5 +205,35 @@ h3 {
 
 .check-container {
   padding: 1rem;
-  margin: 1rem 8rem;
+  margin: 0 8rem;
+}
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input {
+  border-radius: 15px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: lightblue;
+  border: none;
+}
+input[type="submit"]:hover {
+  opacity: 50%;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
 }
