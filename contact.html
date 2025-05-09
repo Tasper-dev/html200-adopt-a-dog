@@ -27,10 +27,36 @@
     </nav>
     <article class="contact">
       <h2>Contact Adoptadog</h2>
-     <p>
-        Sunt anim nulla incididunt in velit do mollit. Ipsum ipsum labore culpa
-        est.
+      <p>Please fill out this contact card and we will get back to you as soon as paw-sible! 
       </p>
+      <label>Your Name
+        <input type="text" name="contactName">
+      </label>
+      <label>City
+        <input type="text" name="contactCity">
+      </label>
+      <label>Your Email
+        <input type="email" name="contactEmail">
+      </label>
+      <fieldset>
+        <legend>Have you adopted from us before?</legend>
+        <label>
+          <input type="radio" name="prevAdopter" value="yes" />
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="prevAdopter" value="no" />
+          No
+        </label>
+      </fieldset>
+      <label>Subject
+        <input type="text" name="subject">
+      </label>
+      <label>
+        <legend>Message</legend>
+        <textarea name="message" rows="15" cols="65"></textarea>
+      </label>
+      <input type="submit" value="Send Message"><br>
       <ul>
         <li>
           <a href="tel:+2061234567">

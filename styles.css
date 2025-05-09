@@ -184,50 +184,54 @@ h3 {
   margin: 0;
 }
 
-/* CSS for Contact page */
+/* CSS for Contact & Checkout */
 
 .contact {
   text-decoration: none;
   padding: 1rem;
-  text-align: center;
+  margin: 1rem 8rem;
 }
 
 .contact li {
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
   color: navy;
   font-size: 1.5rem;
+  display: inline;
 }
-
-.contact li a {
-}
-
-/* Checkout */
 
 .check-container {
   padding: 1rem;
   margin: 0 8rem;
 }
+
 button,
 input,
 select {
   font-family: inherit;
   font-size: 100%;
-  box-sizing: border-box;
   display: block;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 input {
-  border-radius: 15px;
+  border-radius: 5px;
+  border-color: #424242;
+  width: 45%;
+  padding: 0.5rem;
 }
 
 input[type="submit"] {
-  width: 100%;
+  width: 45%;
   background-color: lightblue;
   border: none;
 }
 input[type="submit"]:hover {
   opacity: 50%;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin: 1rem;
 }
 
 fieldset {
