@@ -206,7 +206,8 @@ h3 {
 
 button,
 input,
-select {
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   display: block;
@@ -233,6 +234,9 @@ input[type="radio"] {
   width: auto;
   margin: 1rem;
 }
+input[type="number"] {
+  width: 15%;
+}
 
 fieldset {
   border: none;
@@ -240,4 +244,8 @@ fieldset {
 
 fieldset input {
   display: inline;
+}
+
+textarea {
+  border-radius: 5px;
 }

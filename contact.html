@@ -27,47 +27,72 @@
     </nav>
     <article class="contact">
       <h2>Contact Adoptadog</h2>
-      <p>Please fill out this contact card and we will get back to you as soon as paw-sible! 
+      <p>
+        Please fill out this contact card and we will get back to you as soon as
+        paw-sible!
       </p>
-      <label>Your Name
-        <input type="text" name="contactName">
-      </label>
-      <label>City
-        <input type="text" name="contactCity">
-      </label>
-      <label>Your Email
-        <input type="email" name="contactEmail">
-      </label>
-      <fieldset>
-        <legend>Have you adopted from us before?</legend>
-        <label>
-          <input type="radio" name="prevAdopter" value="yes" />
-          Yes
+      <form name="contactCard" action="#" method="GET">
+        <label
+          >Your Name
+          <input type="text" name="contactName" />
         </label>
-        <label>
-          <input type="radio" name="prevAdopter" value="no" />
-          No
+        <label
+          >City
+          <input type="text" name="contactCity" />
         </label>
-      </fieldset>
-      <label>Subject
-        <input type="text" name="subject">
-      </label>
-      <label>
-        <legend>Message</legend>
-        <textarea name="message" rows="15" cols="65"></textarea>
-      </label>
-      <input type="submit" value="Send Message"><br>
+        <label
+          >Your Email
+          <input type="email" name="contactEmail" />
+        </label>
+        <label
+          >How many dogs currently live in your home?
+          <input type="number" name="currentDogs" />
+        </label>
+        <fieldset>
+          <legend>Have you adopted from us before?</legend>
+          <label>
+            <input type="radio" name="prevAdopter" value="yes" />
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="prevAdopter" value="no" />
+            No
+          </label>
+        </fieldset>
+        <label
+          >How did you hear about us?
+          <select name="custSurvey">
+            <option value="nothing">Please Select</option>
+            <option value="search">Search Engine</option>
+            <option value="facebook">Facebook</option>
+            <option value="instagram">Instagram</option>
+            <option value="friends">Friends</option>
+            <option value="ads">Ads</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label
+          >Subject
+          <input type="text" name="subject" />
+        </label>
+        <label
+          >Message<br />
+          <textarea name="message" rows="15" cols="65"></textarea>
+        </label>
+        <input type="submit" value="Send Message" /><br />
+      </form>
       <ul>
         <li>
-          <a href="tel:+2061234567">
-          </a><i class="fa-solid fa-phone"></i>206-123-4567</a>
+          <a href="tel:+2061234567"> </a
+          ><i class="fa-solid fa-phone"></i>206-123-4567
         </li>
         <li>
-         <a href="mailto:adoptadog@example.com"
-           ><i class="fa-solid fa-envelope"></i>Email</a>
+          <a href="mailto:adoptadog@example.com"
+            ><i class="fa-solid fa-envelope"></i>Email</a
+          >
         </li>
         <li>
-         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </li>
         <li>
           <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
