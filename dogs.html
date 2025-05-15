@@ -11,11 +11,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <header class="main-head">
-      <img class="logo" src="images/adoptadog-logo.svg" alt="" />
-      <h1>Seattle's premiere dog adoption agency</h1>
-      <img class="cart" src="images/cart-icon.svg" alt="" />
-      <a href="checkout.html">Checkout</a>
+    <header class="header">
+      <div class="header-left">
+        <img class="logo" src="images/adoptadog-logo.svg" alt="" />
+        <h1>Seattle's premiere dog adoption agency</h1>
+      </div>
+      <div class="header-right">
+        <img class="cart" src="images/cart-icon.svg" alt="shopping cart icon" />
+        <a href="checkout.html">Checkout</a>
+      </div>
     </header>
     <nav class="main-nav">
       <ul>
@@ -28,10 +32,14 @@
     <h2 class="head-right">All of our Dogs!</h2>
     <div class="flex-container">
       <article class="card">
-        <img src="images/angus-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/angus-card.jpg"
+          alt="brown bulldog panting"
+          width="476"
+          height="284"
+          onclick="dogDetails('Angus', 'Boxer', '$123.45')"
+        />
         <h3>Angus</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -44,14 +52,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/duffy-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/duffy-card.jpg"
+          alt="white and tan puppy with blue eyes"
+          width="476"
+          height="284"
+          onclick="dogDetails('Duffy', 'American Pit Bull Terrier', '$123.45')"
+        />
         <h3>Duffy</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -64,14 +78,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/jack-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/jack-card.jpg"
+          alt="white and brown small dog with brown eyes"
+          width="476"
+          height="284"
+          onclick="dogDetails('Jack', 'Beagle', '$123.45')"
+        />
         <h3>Jack</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -84,14 +104,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/jake-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/jake-card.jpg"
+          alt="yellow labrador"
+          width="476"
+          height="284"
+          onclick="dogDetails('Jake', 'Golden Labrador', '$123.45')"
+        />
         <h3>Jake</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -104,14 +130,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/lucas-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/lucas-card.jpg"
+          alt="black dog with brown eyes"
+          width="476"
+          height="284"
+          onclick="dogDetails('Lucas', 'Australian Shepherd Mix', '$123.45')"
+        />
         <h3>Lucas</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -124,14 +156,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/luna-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/luna-card.jpg"
+          alt="yellow labrador"
+          width="476"
+          height="284"
+          onclick="dogDetails('Luna', 'Golden Labrador', '$123.45')"
+        />
         <h3>Luna</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -144,14 +182,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/maximus-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/maximus-card.jpg"
+          alt="small black dog with white eyebrows and white around his mouth and chest"
+          width="476"
+          height="284"
+          onclick="dogDetails('Maximus', 'Border Terrier', '$123.45')"
+        />
         <h3>Maximus</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -164,14 +208,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/murphy-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/murphy-card.jpg"
+          alt="tan short hair dog with big brown eyes"
+          width="476"
+          height="284"
+          onclick="dogDetails('Murphy', 'Boxer Mix', '$123.45')"
+        />
         <h3>Murphy</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -184,14 +234,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/piper-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/piper-card.jpg"
+          alt="russet brown long hair retriever"
+          width="476"
+          height="284"
+          onclick="dogDetails('Piper', 'Retriever', '$123.45')"
+        />
         <h3>Piper</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -204,14 +260,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/poppy-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/poppy-card.jpg"
+          alt="small whitish gray dog with a pink tongue"
+          width="476"
+          height="284"
+          onclick="dogDetails('Poppy', 'Shih Tzu', '$123.45')"
+        />
         <h3>Poppy</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -224,14 +286,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/stella-card.jpg" alt="" width="476" height="284" />
+        <img
+          src="images/stella-card.jpg"
+          alt="small light brown chihuahua with lighter fur on the face"
+          width="476"
+          height="284"
+          onclick="dogDetails('Stella', 'Chihuahua', '$123.45')"
+        />
         <h3>Stella</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -244,14 +312,20 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
       <article class="card">
-        <img src="images/violet-card.jpg" alt="" width="238" height="142" />
+        <img
+          src="images/violet-card.jpg"
+          alt="deep chocolate brown puppy with blue eyes"
+          width="238"
+          height="142"
+          onclick="dogDetails('Violet', 'Chocolate Labrador', '$123.45')"
+        />
         <h3>Violet</h3>
-        <p>Breed type</p>
-        <p>Age, Sex</p>
         <p>
           Cillum incididunt sint adipisicing dolor laboris mollit quis non
           deserunt elit voluptate. In sit sit est consequat est cillum nostrud
@@ -264,12 +338,14 @@
         </p>
         <p>Cost to Adopt: $123.45</p>
         <p>
-          <button><i class="fa-solid fa-paw"></i>Adopt</button>
+          <button onclick="addFee(123.45)">
+            <i class="fa-solid fa-paw"></i>Adopt
+          </button>
         </p>
       </article>
     </div>
     <footer class="footer">
-      <img class="logo" src="images/adoptadog-logo.svg" alt="" />
+      <img class="footer-img" src="images/adoptadog-logo.svg" alt="" />
       <p>Seattle's premiere adoption agency in the North Puget Sound region</p>
       <nav>
         <ul>
@@ -283,5 +359,6 @@
         <li>Seattle, WA</li>
       </ul>
     </footer>
+    <script src="./adoptadog.js" charset="UTF-8"></script>
   </body>
 </html>
