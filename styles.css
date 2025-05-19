@@ -121,13 +121,13 @@ footer p {
 }
 
 .about-img-box {
-  width: 30%;
+  max-width: 30%;
   float: left;
   margin: 1rem 0 1rem 8rem;
 }
 
 .about-box {
-  width: 50%;
+  max-width: 45%;
   float: right;
   margin: 1rem 8rem 1rem 0;
 }
@@ -136,14 +136,13 @@ footer p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   clear: both;
   margin: 1rem 8rem;
 }
 
 .card {
-  min-width: 21.875rem;
-  width: 25%;
+  width: 18rem;
   padding: 0.5rem;
   text-align: center;
   box-shadow: 2px 2px 5px #d3d3d3, 2px 2px 5px #d3d3d3;
@@ -165,8 +164,30 @@ button {
   text-align: center;
 }
 
-/* CSS for Dogs page */
+@media screen and (max-width: 992px) {
+  .about-box {
+    margin: 1rem 4rem 1rem 0;
+  }
+  .about-img-box {
+    margin: 1rem 0 1rem 4rem;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .flex-container {
+    margin: 1rem;
+  }
+  .about-box {
+    max-width: 100%;
+    margin: 1rem 5rem;
+  }
+  .about-img-box {
+    max-width: 100%;
+    margin: 1rem 5rem;
+  }
+}
+
+/* CSS for Dogs page */
 .head-right {
   margin-left: 8rem;
 }
