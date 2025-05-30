@@ -1,3 +1,4 @@
+/* Adopt Dog Button */
 function dogDetails(dogName, dogBreed, adoptFee) {
   result = dogName + " is " + dogBreed + "." + " Adoption fee is " + adoptFee;
   alert(result);
