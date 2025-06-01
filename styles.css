@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 * {
   box-sizing: border-box;
 }
@@ -34,6 +36,8 @@ nav ul li {
 a:hover {
   opacity: 50%;
 }
+
+/* Header Styling */
 
 header {
   max-width: 100%;
@@ -98,6 +102,8 @@ h2 {
   color: navy;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+/* Footer Styling */
 
 footer {
   background-color: lightblue;
@@ -194,7 +200,7 @@ button {
 
 /* CSS for Blog */
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
@@ -226,7 +232,7 @@ button {
 
 h3 {
   margin: 0;
-}
+} */
 
 /* CSS for Contact & Checkout */
 
