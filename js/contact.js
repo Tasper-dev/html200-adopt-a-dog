@@ -1,42 +1,17 @@
-// const contactCardFields = [
-//   {
-//     name: "contactName",
-//   },
-//   {
-//     name: "contactCity",
-//   },
-//   {
-//     name: "contactEmail",
-//   },
-//   {
-//     name: "currentDogs",
-//   },
-//   {
-//     name: "prevAdopter",
-//   },
-//   {
-//     name: "custSurvery",
-//   },
-//   {
-//     name: "subject",
-//   },
-//   {
-//     name: "message",
-//   },
-// ];
+//Retrieves for element
+const contactForm = document.querySelector("#contactForm");
 
-// const allFields = document.querySelectorAll("input, textarea");
-
-// for (let i = 0; i < contactCardFields.length; i++) {
-//   const contactData = contactCardFields[i];
-//   if (allFields[i]) {
-//     allFields[i].setAttribute("id", contactData.name);
-//     allFields[i].setAttribute("name", contactData.name);
-//   }
-// }
-
-const sendButton = document.querySelector("#sendButton");
-sendButton.addEventListener("click", function (event) {
+//Adds event listener
+contactForm.addEventListener("submit", function (event) {
   event.preventDefault();
+
+  //Selects all elements with class of input and returns a node list
+  const inputs = document.querySelectorAll(".input");
+
+  //Iterates over the node list
+  inputs.forEach((input) => {
+    console.log(`Input name: ${input.name}, value: ${input.value}`);
+  });
+  //Sends alert message on submit
   alert("Thank you. The form information has been recieved.");
 });
